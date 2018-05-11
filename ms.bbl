@@ -1,0 +1,39 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{{Hebb} {et~al.}(2009){Hebb}, {Collier-Cameron}, {Loeillet},
+  {Pollacco}, {H{\'e}brard}, {Street}, {Bouchy}, {Stempels}, {Moutou},
+  {Simpson}, {Udry}, {Joshi}, {West}, {Skillen}, {Wilson}, {McDonald},
+  {Gibson}, {Aigrain}, {Anderson}, {Benn}, {Christian}, {Enoch}, {Haswell},
+  {Hellier}, {Horne}, {Irwin}, {Lister}, {Maxted}, {Mayor}, {Norton}, {Parley},
+  {Pont}, {Queloz}, {Smalley}, \& {Wheatley}}]{hebb09}
+{Hebb}, L., {Collier-Cameron}, A., {Loeillet}, B., {et~al.} 2009, \apj, 693,
+  1920, \dodoi{10.1088/0004-637X/693/2/1920}
+
+\bibitem[{{Kreidberg} {et~al.}(2015){Kreidberg}, {Line}, {Bean}, {Stevenson},
+  {D{\'e}sert}, {Madhusudhan}, {Fortney}, {Barstow}, {Henry}, {Williamson}, \&
+  {Showman}}]{kreidberg15b}
+{Kreidberg}, L., {Line}, M.~R., {Bean}, J.~L., {et~al.} 2015, \apj, 814, 66,
+  \dodoi{10.1088/0004-637X/814/1/66}
+
+\bibitem[{{Oklop{\v c}i{\'c}} \& {Hirata}(2018)}]{oklopcic18}
+{Oklop{\v c}i{\'c}}, A., \& {Hirata}, C.~M. 2018, \apjl, 855, L11,
+  \dodoi{10.3847/2041-8213/aaada9}
+
+\bibitem[{{Seager} \& {Sasselov}(2000)}]{seager00}
+{Seager}, S., \& {Sasselov}, D.~D. 2000, \apj, 537, 916, \dodoi{10.1086/309088}
+
+\bibitem[{{Spake} {et~al.}(2018){Spake}, {Sing}, {Evans}, {Oklop{\v c}i{\'c}},
+  {Bourrier}, {Kreidberg}, {Rackham}, {Irwin}, {Ehrenreich}, {Wyttenbach},
+  {Wakeford}, {Zhou}, {Chubb}, {Nikolov}, {Goyal}, {Henry}, {Williamson},
+  {Blumenthal}, {Anderson}, {Hellier}, {Charbonneau}, {Udry}, \&
+  {Madhusudhan}}]{spake18}
+{Spake}, J.~J., {Sing}, D.~K., {Evans}, T.~M., {et~al.} 2018, ArXiv e-prints.
+\newblock \doarXiv{1805.01298}
+
+\end{thebibliography}
