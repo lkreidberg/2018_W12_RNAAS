@@ -6,6 +6,9 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
+\bibitem[{{Haswell}(2017)}]{haswell17}
+{Haswell}, C.~A. 2017, {WASP-12b: A Mass-Losing Extremely Hot Jupiter}, 97
+
 \bibitem[{{Hebb} {et~al.}(2009){Hebb}, {Collier-Cameron}, {Loeillet},
   {Pollacco}, {H{\'e}brard}, {Street}, {Bouchy}, {Stempels}, {Moutou},
   {Simpson}, {Udry}, {Joshi}, {West}, {Skillen}, {Wilson}, {McDonald},

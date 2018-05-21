@@ -4,44 +4,46 @@ The top-level auxiliary file: ms.aux
 The style file: aasjournal.bst
 Database file #1: ms.bib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 7 entries,
+Warning--empty publisher in haswell17
+You've used 8 entries,
             3166 wiz_defined-function locations,
-            704 strings with 7189 characters,
-and the built_in function-call counts, 3753 in all, are:
-= -- 255
-> -- 384
-< -- 2
-+ -- 125
-- -- 135
-* -- 384
-:= -- 733
-add.period$ -- 8
-call.type$ -- 7
-change.case$ -- 33
-chr.to.int$ -- 7
-cite$ -- 7
-duplicate$ -- 118
-empty$ -- 184
-format.name$ -- 147
-if$ -- 719
+            711 strings with 7444 characters,
+and the built_in function-call counts, 4089 in all, are:
+= -- 282
+> -- 396
+< -- 3
++ -- 129
+- -- 138
+* -- 400
+:= -- 792
+add.period$ -- 9
+call.type$ -- 8
+change.case$ -- 37
+chr.to.int$ -- 8
+cite$ -- 9
+duplicate$ -- 136
+empty$ -- 217
+format.name$ -- 151
+if$ -- 794
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 7
-newline$ -- 31
-num.names$ -- 28
-pop$ -- 37
+missing$ -- 8
+newline$ -- 34
+num.names$ -- 32
+pop$ -- 46
 preamble$ -- 2
-purify$ -- 33
+purify$ -- 37
 quote$ -- 0
-skip$ -- 92
+skip$ -- 110
 stack$ -- 0
-substring$ -- 103
-swap$ -- 0
+substring$ -- 114
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 63
-warning$ -- 0
-while$ -- 23
+type$ -- 69
+warning$ -- 1
+while$ -- 27
 width$ -- 0
-write$ -- 85
+write$ -- 95
+(There was 1 warning)
