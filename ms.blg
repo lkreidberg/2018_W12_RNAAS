@@ -7,43 +7,43 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in haswell17
 You've used 8 entries,
             3166 wiz_defined-function locations,
-            711 strings with 7444 characters,
-and the built_in function-call counts, 4089 in all, are:
-= -- 282
+            713 strings with 7459 characters,
+and the built_in function-call counts, 4116 in all, are:
+= -- 283
 > -- 396
 < -- 3
 + -- 129
 - -- 138
-* -- 400
-:= -- 792
-add.period$ -- 9
+* -- 406
+:= -- 794
+add.period$ -- 8
 call.type$ -- 8
 change.case$ -- 37
 chr.to.int$ -- 8
 cite$ -- 9
-duplicate$ -- 136
-empty$ -- 217
+duplicate$ -- 137
+empty$ -- 220
 format.name$ -- 151
-if$ -- 794
+if$ -- 801
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 8
-newline$ -- 34
+newline$ -- 33
 num.names$ -- 32
-pop$ -- 46
+pop$ -- 45
 preamble$ -- 2
 purify$ -- 37
 quote$ -- 0
-skip$ -- 110
+skip$ -- 112
 stack$ -- 0
-substring$ -- 114
+substring$ -- 121
 swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 69
 warning$ -- 1
-while$ -- 27
+while$ -- 28
 width$ -- 0
 write$ -- 95
 (There was 1 warning)
