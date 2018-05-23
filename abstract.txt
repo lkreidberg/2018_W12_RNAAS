@@ -1,3 +1,15 @@
-A helium exosphere was recently detected around the exoplanet WASP-107b, a low-density, warm Neptune  based on absorption features from metastable helium at $10833\,\mathrm{\AA}$.  Inspired by the WASP-107b detection, we searched archival HST observations of another evaporating exoplanet, WASP-12b, for signs of a helium exosphere.  We find no significant increase in transit depth at $10833\,\mathrm{\AA}$, in contrast to past  observations of the exosphere in the NUV, which show an increase of $\sim1\%$.  Predicted helium feature amplitudes are generally small and agree well with the observations.  In conclusion, metastable helium remains a promising probe of atmospheric escape, but the amplitude of the signal is highly sensitive to the geometry of the evaporating gas cloud and the input stellar spectrum.  These considerations should be taken into account in the design of future searches for helium exospheres.
+A helium exosphere was recently detected around the exoplanet WASP-107b, a
+low-density, warm Neptune  based on absorption features from metastable helium
+at $10833\,\mathrm{\AA}$.  Inspired by the WASP-107b detection, we searched
+archival HST observations of another evaporating exoplanet, WASP-12b, for signs
+of a helium exosphere.  We find no significant increase in transit depth at
+$10833\,\mathrm{\AA}$, in contrast to past observations of the planet's exosphere in the
+NUV, which show an increase of $\sim1\%$.  The predicted helium feature amplitudes
+are generally small and agree well with the observations.  
+
+FIXME: why are they smaller than W107
+
+
+In conclusion, metastable helium remains a promising probe of atmospheric escape, but the amplitude of the signal is highly sensitive to the geometry of the evaporating gas cloud and the input stellar spectrum.  These considerations should be taken into account in the design of future searches for helium exospheres.
 
  
