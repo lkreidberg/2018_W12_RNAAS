@@ -49,7 +49,7 @@ weighted mean depth in the adjacent wavelength bins, in contrast to past
 observations of the exosphere in the NUV, which show an increase of $\sim1\%$
 relative to the optical transit depth \citep{nichols15}.
 
-To estimate the expected absorption signal of WASP-12b at $10833\,\mathrm{\AA}$,
+To estimate the expected helium absorption signal of WASP-12b,
 we used the theoretical model described in \cite{oklopcic18}.
 In this 1D model, we assumed the thermosphere of the planet is composed of atomic hydrogen and helium in 9:1 number
 ratio. For the thermospheric density and velocity profiles we adopted the
@@ -62,6 +62,10 @@ gas at the substellar point \citep[as in][]{oklopcic18}, and the other for the
 gas at the terminator, which is likely a better approximation of the average 3D
 distribution of the metastable helium. We label these scenarios Model A and B,
 respectively. For each profile, we predict the expected absorption signal taking into account: 1) gas within the Roche radius of the planet, where the assumptions of our 1D model are more likely to be valid, and 2) all the gas out to 20 planetary radii. 
+As illustrated in Figure\,\ref{fig:spectrum}, the predicted helium feature
+amplitudes are generally small and agree well with the observations (with the
+exception of the least physically plausible scenario, Model A with all gas,
+which is inconsistent with the observed spectrum at $5.2\,\sigma$ confidence). 
 
 \begin{figure*}[b!]
 \begin{centering}
@@ -74,24 +78,26 @@ the strength of the $10833\mathrm{\AA}$ helium feature.}
 
 %Absorption features in this line may be smaller than in the NUV
 
-As illustrated in Figure\,\ref{fig:spectrum}, the predicted helium feature
-amplitudes are generally small and agree well with the observations. 
-The least physically plausible model is ruled out (Model A with all gas, which is
-inconsistent with the observed spectrum at 5.2\,$\sigma$ confidence). These
-results illustrate that helium absorption may produce a much smaller feature
-than atomic lines in the NUV.  In addition, there are several other factors that could weaken the helium feature even
-more than what is discussed here.  One is that WASP-12 may be faint in the extreme ultraviolet (EUV). The star has
-an unusually low activity level, which has been attributed to a shroud or torus of
-material generated from the evaporating planet \citep{haswell17, debrecht18}. If the EUV flux
-is lower than that of the Sun, the population of helium in the metastable state
-will be relatively depleted, shrinking the amplitude of the helium feature.
-Furthermore, if the evaporating material is distributed  in a torus around the
-star, the helium absorption feature may exist at all orbital phases, not
-just during the planet's transit.
+This non-detection raises the question of why the helium feature is larger in  
+WASP-107b than WASP-12b, which is also known to be evaporating.  There are several factors that may contribute to a
+larger signal for the former. First, the incident stellar spectrum for WASP-107b
+is more favorable for producing metastable helium.  WASP-107 is an active star
+and expected to be bright in the extreme ultraviolet (EUV), which is responsible for populating the excited metastable
+state. By contrast, common indicators of stellar activity suggest that WASP-12
+is an unusually inactive star, and hence it might be even fainter in the EUV
+than a typical Sun-like star.  In addition, the later spectral type of WASP-107 (K6 versus G0) results
+in a lower flux of hydrogen-ionizing radiation, which reduces the density of
+free electrons (collisions with electrons are the main de-populating mechanism
+of the metastable state).  Finally, the escape rate of material from WASP-12b is
+so high that it may produce a torus of material around the star
+\citep{haswell17, debrecht18}. If the metastable helium is distributed uniformly
+around the star, the helium absorption feature would exist at all orbital phases, not just during the planet's transit.
+
 
 In conclusion, metastable helium remains a promising probe of atmospheric
-escape, but the amplitude of the signal is highly sensitive to the geometry of
-the evaporating gas cloud and the input stellar spectrum.  These considerations should be taken into account in the design of future searches for helium exospheres.
+escape, but the amplitude of the signal is highly sensitive to the input stellar
+spectrum and the geometry of
+the evaporating gas cloud.  These considerations should be taken into account in the design of future searches for helium exospheres.
 
  
 
@@ -101,7 +107,6 @@ the evaporating gas cloud and the input stellar spectrum.  These considerations 
 %be small. but the
 %significance of the result is dependent on the assumed geometry of the
 %evaporating gas cloud as well as the input stellar spectrum.  Both of these factors should be considered in the design of future searches for helium exospheres.
-
 
 \bibliographystyle{aasjournal}
 \bibliography{ms.bib}
