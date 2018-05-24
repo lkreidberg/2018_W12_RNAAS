@@ -1,17 +1,17 @@
 \documentclass[RNAAS]{aastex62}
+%\documentclass{rnaastex}
 
 \newcommand{\vdag}{(v)^\dagger}
 \newcommand\aastex{AAS\TeX}
 \newcommand\latex{La\TeX}
 
-\submitjournal{RNAAS}
 
-\shorttitle{Non-Detection of Helium for WASP-12b}
-\shortauthors{Kreidberg \& Oklop\v{c}i\'{c}}
+%\shorttitle{Non-Detection of Helium for WASP-12b}
+%\shortauthors{Kreidberg \& Oklop\v{c}i\'{c}}
 
 \begin{document}
 
-\title{Non-Detection of a Helium Exosphere for the Hot Jupiter WASP-12b}
+\title{Non-Detection of a Helium Exosphere for the Hot Jupiter WASP-12\lowercase{b}}
 
 \author{Laura Kreidberg}
 \affiliation{Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, Cambridge, MA 02138}
@@ -19,6 +19,8 @@
 
 \author{Antonija Oklop\v{c}i\'{c}}
 \affiliation{Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, Cambridge, MA 02138}
+
+\section{Introduction}
 A helium exosphere was recently detected around the exoplanet WASP-107b, a
 low-density, warm Neptune \citep{spake18}, based on absorption features from metastable helium at $10833\,\mathrm{\AA}$ \citep[predicted
 by][]{seager00,oklopcic18}. The helium feature provides a new probe of atmospheric escape that is
@@ -36,6 +38,7 @@ irradiation, theory predicts a high rate of escaping atoms and molecules from
 the planet's atmosphere, and indeed, transit observations in the ultraviolet
 have revealed a patchy cloud of escaping material \citep{nichols15, salz16}.  
 
+\section{Observations and Data Reduction}
 For this Note, we reanalyzed three transits of WASP-12b observed with the
 Hubble Space Telescope/Wide Field Camera 3 G102 grism \citep[originally published in][]{kreidberg15b}.  In our analysis, we used the same methodology as
 \cite{kreidberg15b}, except with different spectral binning to include a narrow
@@ -49,6 +52,7 @@ weighted mean depth in the adjacent wavelength bins, in contrast to past
 observations of the exosphere in the NUV, which show an increase of $\sim1\%$
 relative to the optical transit depth \citep{nichols15}.
 
+\section{Model Predictions}
 To estimate the expected helium absorption signal of WASP-12b,
 we used the theoretical model described in \cite{oklopcic18}.
 In this 1D model, we assumed the thermosphere of the planet is composed of atomic hydrogen and helium in 9:1 number
@@ -67,20 +71,14 @@ amplitudes are generally small and agree well with the observations (with the
 exception of the least physically plausible scenario, Model A with all gas,
 which is inconsistent with the observed spectrum at $5.2\,\sigma$ confidence). 
 
-\begin{figure*}[b!]
-\begin{centering}
-\includegraphics[width = 0.9\textwidth]{Figures/fig1.pdf}
-\caption{Transmission spectrum of WASP-12b, compared to model predictions for
-the strength of the $10833\mathrm{\AA}$ helium feature.}
-\end{centering}
-\label{fig:spectrum}
-\end{figure*}
-
 %Absorption features in this line may be smaller than in the NUV
 
+\section{Discussion}
 This non-detection raises the question of why the helium feature is larger in  
-WASP-107b than WASP-12b, which is also known to be evaporating.  There are several factors that may contribute to a
-larger signal for the former. First, the incident stellar spectrum for WASP-107b
+WASP-107b than WASP-12b, which also has an exosphere.  Even though
+WASP-12b experiences 20$\times$ higher bolometric flux, there are several factors that may contribute to a
+larger signal for WASP-107b. First, the Roche radius of WASP-107b relative to
+its host star is $2\times$ larger than for WASP-12b. In addition, the incident stellar spectrum for WASP-107b
 is more favorable for producing metastable helium.  WASP-107 is an active star
 and expected to be bright in the extreme ultraviolet (EUV), which is responsible for populating the excited metastable
 state. By contrast, common indicators of stellar activity suggest that WASP-12
@@ -100,16 +98,79 @@ spectrum and the geometry of
 the evaporating gas cloud.  These considerations should be taken into account in the design of future searches for helium exospheres.
 
  
+\begin{figure*}
+\begin{centering}
+\includegraphics[width = 0.9\textwidth]{fig1.pdf}
+\caption{Transmission spectrum of WASP-12b, compared to model predictions for
+the strength of the $10833\mathrm{\AA}$ helium feature.}
+\end{centering}
+\label{fig:spectrum}
+\end{figure*}
 
+\acknowledgements
+We thank Caroline Morley and Hannah Diamond-Lowe for helpful discussions at
+House of Chang.
 
-%In conclusion, we find that WASP-12b has no evidence for a helium exosphere, in
-%agreement with theoretical predictions that the helium feature amplitude should
-%be small. but the
-%significance of the result is dependent on the assumed geometry of the
-%evaporating gas cloud as well as the input stellar spectrum.  Both of these factors should be considered in the design of future searches for helium exospheres.
+%\bibliographystyle{aasjournal}
+%\bibliography{ms.bib}
 
-\bibliographystyle{aasjournal}
-\bibliography{ms.bib}
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{{Debrecht} {et~al.}(2018){Debrecht}, {Carroll-Nellenback}, {Frank},
+  {Fossati}, {Blackman}, \& {Dobbs-Dixon}}]{debrecht18}
+{Debrecht}, A., {Carroll-Nellenback}, J., {Frank}, A., {et~al.} 2018, \mnras,
+  \dodoi{10.1093/mnras/sty1164}
+
+\bibitem[{{Haswell}(2017)}]{haswell17}
+{Haswell}, C.~A. 2017, {WASP-12b: A Mass-Losing Extremely Hot Jupiter}, 97
+
+\bibitem[{{Hebb} {et~al.}(2009){Hebb}, {Collier-Cameron}, {Loeillet},
+  {Pollacco}, {H{\'e}brard}, {Street}, {Bouchy}, {Stempels}, {Moutou},
+  {Simpson}, {Udry}, {Joshi}, {West}, {Skillen}, {Wilson}, {McDonald},
+  {Gibson}, {Aigrain}, {Anderson}, {Benn}, {Christian}, {Enoch}, {Haswell},
+  {Hellier}, {Horne}, {Irwin}, {Lister}, {Maxted}, {Mayor}, {Norton}, {Parley},
+  {Pont}, {Queloz}, {Smalley}, \& {Wheatley}}]{hebb09}
+{Hebb}, L., {Collier-Cameron}, A., {Loeillet}, B., {et~al.} 2009, \apj, 693,
+  1920, \dodoi{10.1088/0004-637X/693/2/1920}
+
+\bibitem[{{Kreidberg} {et~al.}(2015){Kreidberg}, {Line}, {Bean}, {Stevenson},
+  {D{\'e}sert}, {Madhusudhan}, {Fortney}, {Barstow}, {Henry}, {Williamson}, \&
+  {Showman}}]{kreidberg15b}
+{Kreidberg}, L., {Line}, M.~R., {Bean}, J.~L., {et~al.} 2015, \apj, 814, 66,
+  \dodoi{10.1088/0004-637X/814/1/66}
+
+\bibitem[{{Nichols} {et~al.}(2015){Nichols}, {Wynn}, {Goad}, {Alexander},
+  {Casewell}, {Cowley}, {Burleigh}, {Clarke}, \& {Bisikalo}}]{nichols15}
+{Nichols}, J.~D., {Wynn}, G.~A., {Goad}, M., {et~al.} 2015, \apj, 803, 9,
+  \dodoi{10.1088/0004-637X/803/1/9}
+
+\bibitem[{{Oklop{\v c}i{\'c}} \& {Hirata}(2018)}]{oklopcic18}
+{Oklop{\v c}i{\'c}}, A., \& {Hirata}, C.~M. 2018, \apjl, 855, L11,
+  \dodoi{10.3847/2041-8213/aaada9}
+
+\bibitem[{{Salz} {et~al.}(2016){Salz}, {Czesla}, {Schneider}, \&
+  {Schmitt}}]{salz16}
+{Salz}, M., {Czesla}, S., {Schneider}, P.~C., \& {Schmitt}, J.~H.~M.~M. 2016,
+  \aap, 586, A75, \dodoi{10.1051/0004-6361/201526109}
+
+\bibitem[{{Seager} \& {Sasselov}(2000)}]{seager00}
+{Seager}, S., \& {Sasselov}, D.~D. 2000, \apj, 537, 916, \dodoi{10.1086/309088}
+
+\bibitem[{{Spake} {et~al.}(2018){Spake}, {Sing}, {Evans}, {Oklop{\v c}i{\'c}},
+  {Bourrier}, {Kreidberg}, {Rackham}, {Irwin}, {Ehrenreich}, {Wyttenbach},
+  {Wakeford}, {Zhou}, {Chubb}, {Nikolov}, {Goyal}, {Henry}, {Williamson},
+  {Blumenthal}, {Anderson}, {Hellier}, {Charbonneau}, {Udry}, \&
+  {Madhusudhan}}]{spake18}
+{Spake}, J.~J., {Sing}, D.~K., {Evans}, T.~M., {et~al.} 2018, Nature, 557, 68,
+  \dodoi{10.1038/s41586-018-0067-5}
+
+\end{thebibliography}
 
 \end{document}
 
