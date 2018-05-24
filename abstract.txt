@@ -2,9 +2,9 @@ An exosphere was recently detected around the exoplanet WASP-107b, a
 low-density, warm Neptune, based on absorption features from metastable helium
 at $10833\,\mathrm{\AA}$.  Inspired by the WASP-107b detection, we reanalyzed 
 archival HST observations of another evaporating exoplanet, WASP-12b, to search for signs
-of a helium exosphere.  We find no significant increase in transit depth at
-$10833\,\mathrm{\AA}$, which agrees well with predictions from a 1D model.  We
-discuss possible explanations for why the helium feature is weaker for WASP-12b
+of helium in the exosphere.  We find no significant increase in transit depth at
+$10833\,\mathrm{\AA}$, which agrees well with predictions from a 1D model that
+suggest the feature amplitude is small.  We discuss possible explanations for why the helium feature is weaker for WASP-12b
 than WASP-107b, and conclude that the amplitude of the signal is highly
 sensitive to the stellar spectrum and the geometry of the evaporating gas cloud.  
 These considerations should be taken into account in the design of future searches for helium exospheres.  
